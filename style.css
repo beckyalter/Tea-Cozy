@@ -16,17 +16,43 @@ body {
     justify-content: center;
     justify-content: space-between;
     margin-left: 10px;
-    margin-right: 10px;
-    
+    position: fixed;
+    min-height: 69px;
+    border-bottom: 1px solid seashell;
 }
 
 nav a {
-    display: flex;
     color: seashell;
-
 }
 
 nav li {
     list-style: none;
     display: inline-flex;
+    margin-right: 30px;
+    
 }
+
+.logo {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.container1 {
+    position: 
+    opacity: .5; 
+    width: 100%;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 350px;
+    right: 350px;
+   
+}
+
+.mission-pic {
+    max-height: 700px;
+    max-width: 100%;
+    margin-top: 100px;
+}
+
