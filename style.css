@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+nav a {
+    display: flex;
+    color: seashell;
+
+}
+
+nav li {
+    list-style: none;
+    display: inline-flex;
+}
