@@ -38,21 +38,25 @@ nav li {
 }
 
 .container1 {
-    position: 
+    position: static;
     opacity: .5; 
     width: 100%;
 }
 
 .text-block {
     position: absolute;
-    bottom: 350px;
-    right: 350px;
+    width: 1200px;
+    bottom: 250px;
+    margin-left: 300px;
+    margin-right: 100px;
+    background-color: black;
+    text-align: center;
    
 }
 
 .mission-pic {
     max-height: 700px;
     max-width: 100%;
-    margin-top: 100px;
+    margin: 100px 200px;
 }
 
