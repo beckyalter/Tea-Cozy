@@ -39,7 +39,6 @@ nav li {
 
 .container1 {
     position: static;
-    opacity: .5; 
     width: 100%;
 }
 
@@ -47,16 +46,42 @@ nav li {
     position: absolute;
     width: 1200px;
     bottom: 250px;
-    margin-left: 300px;
-    margin-right: 100px;
+    margin-left: 180px;
+    margin-right: 200px;
     background-color: black;
     text-align: center;
-   
+    padding-right: 150px;
+    color: seashell;
 }
 
 .mission-pic {
     max-height: 700px;
-    max-width: 100%;
-    margin: 100px 200px;
+    max-width: 1200px;
+    margin-top: 100px; 
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    opacity: .5;
 }
 
+.titles {
+    text-align: center;
+    color: seashell;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+.image-blocks {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.image {
+  max-width: 400px;
+  max-height: 300px;
+}
