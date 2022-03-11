@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -29,6 +31,7 @@ nav li {
     list-style: none;
     display: inline-flex;
     margin-right: 30px;
+    margin-top: 20px;
     
 }
 
@@ -38,56 +41,59 @@ nav li {
 }
 
 .container1 {
-    position: static;
-    width: 100%;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
 }
 
 .text-block {
     position: absolute;
-    width: 1200px;
+    width: 1050px;
     bottom: 250px;
-    margin-left: 180px;
-    margin-right: 200px;
+    padding: 35px;
     background-color: black;
     text-align: center;
-    padding-right: 150px;
     color: seashell;
 }
 
 .mission-pic {
-    max-height: 700px;
-    max-width: 1200px;
+    height: 700px;
+    width: 1200px;
     margin-top: 100px; 
     margin-bottom: 50px;
     margin-left: 200px;
     margin-right: 200px;
-    opacity: .5;
+    opacity: .7;
 }
 
-.titles {
+.container-header {
     text-align: center;
     color: seashell;
+    border: 1px solid red;
+    padding: 20px;
+    margin-bottom: 50px;
 }
 
-.container2 {
+.container {
     display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    max-height: 100%;
-    margin-top: 100px;
+    justify-content: center;
+    border: 1px solid green;
 }
 
-.image-blocks {
-    display: inline-flex;
-    width: 700px;
+.card {
+    background: white;
+    width: 220px;
+    height: 400px;
+    margin: 20px;
+    color: black;
+    border: 1px solid yellow;
 }
 
-.image {
-    max-width: 300px;
-    max-height: 200px;  
-    flex: auto;
+.card-image {
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+
 }
 
-.pic-title {
-   
-}
