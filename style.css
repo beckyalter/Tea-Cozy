@@ -76,24 +76,46 @@ nav li {
 
 .container {
     display: flex;
+    width: 1200px;
     justify-content: center;
     border: 1px solid green;
+    margin: 0 auto;
 }
 
 .card {
     background: white;
-    width: 220px;
-    height: 400px;
+    width: 500px;
+    height: 270px;
     margin: 20px;
     color: black;
     border: 1px solid yellow;
+    text-align: center;
 }
 
 .card-image {
-    background-color: aqua;
     height: 150px;
     margin-bottom: 10px;
     border: 1px solid red;
+    background-size: cover;
 
 }
 
+.img-1 {
+    background-image: url(/Users/becky/Documents/GitHubProjects/tea-cozy/berryblitz.jpeg);
+}
+
+.img-2 {
+    background-image: url(/Users/becky/Documents/GitHubProjects/tea-cozy/spiced-rum.jpeg);
+}
+
+.img-3 {
+    background-image: url(/Users/becky/Documents/GitHubProjects/tea-cozy/donut.jpeg);
+}
+
+.img-4 {
+    background-image: url(/Users/becky/Documents/GitHubProjects/tea-cozy/myrtle-ave.jpeg);
+}
+
+.img-5 {
+    background-image: url(/Users/becky/Documents/GitHubProjects/tea-cozy/bedford-bizarre.jpeg);
+}
