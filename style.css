@@ -18,13 +18,13 @@ body {
     justify-content: center;
     justify-content: space-between;
     margin-left: 10px;
-    position: fixed;
     min-height: 69px;
     border-bottom: 1px solid seashell;
 }
 
 nav a {
     color: seashell;
+    text-decoration: none;
 }
 
 nav li {
@@ -32,7 +32,7 @@ nav li {
     display: inline-flex;
     margin-right: 30px;
     margin-top: 20px;
-    
+   
 }
 
 .logo {
@@ -78,6 +78,7 @@ nav li {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .card {
@@ -124,6 +125,7 @@ nav li {
     height: 500px;
     margin: 0 auto;
     margin-bottom: 0px;
+    
 }
 
 .text-block2 {
@@ -164,6 +166,29 @@ nav li {
     line-height: 3em;
     height: 200px;
     margin-top: 0px;
+}
+
+.top-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid seashell;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.button a {
+    text-decoration: none;
+    color: seashell;
 }
 
 .footer {
