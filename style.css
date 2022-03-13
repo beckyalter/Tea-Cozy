@@ -41,7 +41,6 @@ nav li {
 }
 
 .container1 {
-    border: 1px solid yellow;
     display: flex;
     justify-content: center;
 }
@@ -49,7 +48,7 @@ nav li {
 .text-block {
     position: absolute;
     width: 1050px;
-    bottom: 250px;
+    bottom: 275px;
     padding: 35px;
     background-color: black;
     text-align: center;
@@ -69,7 +68,6 @@ nav li {
 .container-header {
     text-align: center;
     color: seashell;
-    border: 1px solid red;
     padding: 20px;
     margin-bottom: 50px;
 }
@@ -79,7 +77,6 @@ nav li {
     width: 1200px;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px solid green;
     margin: 0 auto;
 }
 
@@ -89,14 +86,12 @@ nav li {
     height: 200px;
     margin: 20px;
     color: black;
-    border: 1px solid yellow;
     text-align: center;
 }
 
 .card-image {
     height: 150px;
     margin-bottom: 10px;
-    border: 1px solid red;
     background-size: cover;
 }
 
@@ -119,3 +114,63 @@ nav li {
 .img-5 {
     background-image: url(/Users/becky/Documents/GitHubProjects/tea-cozy/bedford-bizarre.jpeg);
 }
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    max-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+.text-block2 {
+    position: absolute;
+    bottom: 50%;
+    top: 35px;
+    left: 43%;
+    right: 50%;
+    color: seashell;
+}
+
+#locations {
+    width: 1200px;
+    height: 500px;
+    opacity: .8;
+}
+
+.box-box {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 1200px;
+    height: 300px;
+    margin-top: 100px;
+    line-height: 3em;  
+}
+
+.box {
+    padding-top: 20px;
+    background-color: black;
+    text-align: center;
+    width: 300px;
+}
+
+.contact {
+    text-align: center;
+    line-height: 3em;
+    height: 200px;
+    margin-top: 0px;
+}
+
+.footer {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+
